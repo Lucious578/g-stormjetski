@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light airy blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Main Container */
+main {
+    max-width: 800px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+/* Headings */
+h2 {
+    color: #00509d; /* Deep ocean blue */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #00b4d8; /* Bright water blue accent */
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* List Styling */
+ul {
+    list-style: none; /* Removing default bullets for a cleaner look */
+    padding-left: 5px;
+}
+
+li {
+    background: #e9f5ff;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-left: 5px solid #0077b6;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+/* "Pick Us" Section Highlight */
+section:last-of-type {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section:last-of-type h2 {
+    color: #fff;
+    border-bottom-color: #ffd166; /* Sunny yellow accent */
+}
+
+section:last-of-type p {
+    color: #e0f2f1;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 20px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
